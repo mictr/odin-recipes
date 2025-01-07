@@ -1,0 +1,12 @@
+* {
+  font-family: "Garamond", sans-serif;
+}
+
+.title {
+  font-size: 36px;
+}
+
+.recipe {
+  background-color: aquamarine;
+  font-weight: bold;
+}
