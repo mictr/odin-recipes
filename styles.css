@@ -1,12 +1,29 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 * {
   font-family: "Garamond", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 400px;
+  margin: 20px auto;
 }
 
 .title {
   font-size: 36px;
+  padding: 16px;
 }
 
 .recipe {
-  background-color: aquamarine;
   font-weight: bold;
+}
+
+li {
+  margin: 0 36px;
+  padding: 2px 0;
 }
